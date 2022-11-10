@@ -9,7 +9,7 @@ API desenvolvida durante a aula de Contrução Backend para aplicar JWT e valida
 
 ## Importante
 ### É necessário criar a pasta config e o arquivo env.json.
-### no arquivo env.json, deve ser inserido a porta em que a API vai rodar, a url do banco de dados em MongoDB e o segredo do JWT. Exemplo:
+**no arquivo env.json, deve ser inserido a porta em que a API vai rodar, a url do banco de dados em MongoDB e o segredo do JWT. Exemplo:**
 `
 {
   "porta": 3000,
