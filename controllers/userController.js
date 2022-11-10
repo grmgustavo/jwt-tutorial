@@ -41,7 +41,7 @@ async function login(req, res) {
       const token = jwt.sign({ id: doc._id }, config.segredo, {
         expiresIn: "1d",
       });
-      return res.json({ email: email, token: "abcd" });
+      return res.json({ email, token });
     })
     .catch((error) => {
       return res.status(500).json(error);
